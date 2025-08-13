@@ -113,7 +113,7 @@ async fn main() {
         .fallback_service(serve_dir);
 
     // Jalankan server di localhost:3000
-    let addr = "127.0.0.1:3000";
+    let addr = "0.0.0.0:3000";
     println!("🚀 Server running at http://{}", addr);
     println!("✅ Database connected and migrations completed");
     println!("🔗 Endpoints available at http://{}", addr);
